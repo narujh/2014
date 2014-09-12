@@ -4,6 +4,8 @@
 int
 main(int argc, char **argv)
 {
+	fprintf(stdout, "Hello\n");
+	system("pause");
 	return EXIT_SUCCESS;
 }
 
