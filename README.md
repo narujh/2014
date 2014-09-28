@@ -14,3 +14,7 @@ Rammstein
 TODO:
 Make  an english-named link to "ivb-3-14" folder plz :c
 My system can not into russian through console (proof would be uploaded later)
+
+~~~
+In next time, write issue please :3
+~~~
