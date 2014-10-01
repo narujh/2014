@@ -18,4 +18,5 @@ My system can not into russian through console (proof would be uploaded later)
 ~~~
 In next time, write issue please :3
 ~~~
+http://youtu.be/ULqNSvR8PZo
 ![Посмотрите](http://youtu.be/ULqNSvR8PZo)
