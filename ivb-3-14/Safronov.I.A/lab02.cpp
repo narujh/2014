@@ -48,8 +48,8 @@ int
 	int mCols1 = 0;
 	int mRows2 = 0;
 	int mCols2 = 0;
-	double ** matrix1 = __loadMatrix("C:\\matrix1.dat", &mRows1, &mCols1);
-	double ** matrix2 = __loadMatrix("C:\\matrix2.dat", &mRows2, &mCols2);
+	double ** matrix1 = __loadMatrix("matrix1.dat", &mRows1, &mCols1);
+	double ** matrix2 = __loadMatrix("matrix2.dat", &mRows2, &mCols2);
 
 	/** Output */
 	fprintf(stdout, "Matrix N1:\n");
