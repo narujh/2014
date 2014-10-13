@@ -1,8 +1,3 @@
-/*ivb-3-14 Залялиев Р.Р. Lab №1*/
-/*09 Определить в каком массиве меньше произведение элементов,
-попадающих в заданный диапазон. 
-Если в двух или трёх массивах произведения совпадают, вывести соответствующее сообщение*/
-
 #pragma warning(disable : 4996)
 #include <cstdio>
 #include <cstdlib>
@@ -18,10 +13,10 @@ static double m3[] = { 1., 2., 3., 1., 2., 3. };
 double
 c(double m[], int n) {
 	double result = 1;
-    for (int i = 0; i < n; ++i) {
+	for (int i = 0; i < n; ++i) {
 		if (m[i] <= d_max && m[i] >= d_min)
-	    result *= m[i];
-    }
+			result *= m[i];
+	}
 	return result;
 }
 
@@ -31,7 +26,7 @@ main()
 	double r1 = c(m1, sizeof(m1) / sizeof(m1[0]));
 	double r2 = c(m2, sizeof(m2) / sizeof(m2[0]));
 	double r3 = c(m3, sizeof(m3) / sizeof(m3[0]));
-  
+
 	if (r1 == r2)
 		fprintf(stdout, "Matrix1 == Matrix2\n");
 	if (r1 == r3)
